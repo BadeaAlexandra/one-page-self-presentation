@@ -1,0 +1,41 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.st-header{
+    position: relative;
+    background-image: url(daria-nepriakhina-i5iIhHSAtp4-unsplash.jpg);
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-overlay{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.7);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.st-header-content{
+    padding-top: 12%;
+}
+
+.st-header-title{
+    color: #fff;
+    padding-top: 40px;
+}
+
+.st-header-title h2{
+    font-size: 56px;
+    margin-bottom: 20px;
+}
+
+.st-header-title h2 span{
+    font-weight: 700;
+    color: #68c3a3;
+}
